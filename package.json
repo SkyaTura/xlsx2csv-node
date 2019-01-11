@@ -1,0 +1,19 @@
+{
+  "name": "xlsx2csv-node",
+  "version": "1.0.0",
+  "description": "A simple wrapper for xlsx2csv",
+  "repository": "https://github.com/SkyaTura/xlsx2csv-node",
+  "main": "index.js",
+  "bin": {
+    "xlsx2csv": "cli.js"
+  },
+  "scripts": {
+    "install": "git clone https://github.com/dilshod/xlsx2csv.git bin/xlsx2csv"
+  },
+  "author": "Antonio Eduardo <antonio@skyatura.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "python-shell": "^1.0.7"
+  }
+}

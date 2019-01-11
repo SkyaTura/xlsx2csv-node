@@ -1,0 +1,2 @@
+bin/xlsx2csv/**
+!bin/xlsx2csv/xlsx2csv.py
